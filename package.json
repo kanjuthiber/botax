@@ -1,0 +1,43 @@
+{
+  "name": "pragos",
+  "version": "3.0.1",
+  "description": "wangsaff ga asik amt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js --max-old-space-size=8192"
+  },
+  "keywords": [
+    "wawebjs",
+    "botax",
+    "playwright",
+    "jancukpristel",
+    "whatsapp-web.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanjuthiber/botax"
+  },
+  "bugs": {
+    "url": "https://github.com/kanjuthiber/botax/issues"
+  },
+  "homepage": "https://github.com/kanjuthiber/botax",
+  "author": {
+    "name": "egiw",
+    "email": "egiytta@proton.me",
+    "url": "https://github.com/kanjuthiber"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "child_process": "^1.0.2",
+    "chokidar": "^3.5.3",
+    "file-type": "^18.2.1",
+    "moment-timezone": "^0.5.41",
+    "mongoose": "^7.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.0",
+    "util": "^0.12.5",
+    "whatsapp-web.js": "github:amiruldev20/mywajs#v2"
+  }
+}
